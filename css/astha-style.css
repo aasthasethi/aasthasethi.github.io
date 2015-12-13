@@ -1,0 +1,80 @@
+body {
+  background-color: #FFBB33;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.my-awesome-introduction {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  .my-awesome-introduction > p {
+    margin:0 100px;
+  }
+}
+
+/*Skills*/
+
+.skill-circle {
+  text-align: center;
+}
+
+.skill-circle > a {
+  background-color: #222;
+  height: 144px;
+  width: 144px;
+  border-radius: 72px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+}
+
+.skill-circle > a > img {
+  height: 72px;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  background-color: #222;
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  text-align: center;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.social-media-icons > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-media-icons > li > a {
+  padding: 0px;
+  width: 36px;
+  height: 36px;
+  line-height: 1px;
+  font-size: 18px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #0099CC;
+  border-radius: 18px;
+  color: #FFF;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/*.social-media-icons > li > a:focus,*/
+.social-media-icons > li > a:hover {
+  color: #222;
+  background-color: #FFBB33;
+  transition: background-color 0.2s, color 0.2s;
+}
