@@ -31,8 +31,8 @@ Stretchy Nav style - common to:
 
 -------------------------------- */
 .main-head {
-  max-width: 480px;
-  margin: 300px auto;
+  max-width: 580px;
+  margin: 150px auto;
   text-align: center; }
 
 .main-head > h1 {
@@ -725,3 +725,23 @@ keyframes
 margin-top: 200px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.resume-wrapper {
+  padding: 60px 100px;
+}
+
+@media screen and (max-width: 720px) {
+  .resume-wrapper {
+    padding: 40px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .resume-wrapper {
+    padding: 30px 10px;
+  }
+}
+
+.resume {
+  width: 100%;
+}
