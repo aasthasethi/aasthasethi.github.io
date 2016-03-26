@@ -1,4 +1,4 @@
-/* --------------------------------
+ /* --------------------------------
 
 Primary style
 
@@ -744,4 +744,64 @@ margin-top: 200px;
 
 .resume {
   width: 100%;
+}
+
+.contact-card {
+  margin: 60px auto;
+  padding: 60px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+
+  background-color: #fff;
+  width: 360px;
+  height: 540px;
+  text-align: center;
+}
+
+.contact-card > h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.contact-card > h2 {
+  font-size: 20px;
+}
+
+.mera-qr {
+  height: 180px;
+  width: 180px;
+
+  margin: 50px 0;
+}
+
+.social-icons {
+
+}
+
+.social-icons > ul > li {
+  display: inline;
+}
+
+.social-icons > ul > li > a {
+  margin: 0 4px;
+
+  display: inline-block;
+  background-color: #003c5d;
+  padding: 9px;
+  border-radius: 40px;
+  height: 36px;
+  width: 36px;
+  font-size: 18px;
+  line-height: 1px;
+  color: #ffbb33;
+
+  transition: backgroud-color 0.5s, color 0.5s;
+}
+
+.social-icons > ul > li > a:hover {
+  background-color: #ffbb33;
+  color: #003c5d;
+
+  transition: backgroud-color 0.5s, color 0.5s;
 }
