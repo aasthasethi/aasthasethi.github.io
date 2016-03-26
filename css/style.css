@@ -742,6 +742,12 @@ margin-top: 200px;
   }
 }
 
+@media screen and (min-width: 968px) {
+  .resume-wrapper {
+    padding: 60px 360px;
+  }
+}
+
 .resume {
   width: 100%;
 }
